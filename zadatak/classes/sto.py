@@ -1,7 +1,7 @@
 from classes.porudzbina import Porudzbina
 from classes.nije_naplaceno import NijeNaplaceno
 
-class Sto():
+class Sto:
     def __init__(self, broj):
         self.broj = broj
         self.porudzbina = None
