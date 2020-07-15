@@ -1,0 +1,2 @@
+class NijeNaplaceno(Exception):
+    pass
