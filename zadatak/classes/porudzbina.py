@@ -13,7 +13,7 @@ class Porudzbina:
         
 
     def naplati(self):
-        print("Racun: datum {} sto broj {}, naplata {}rsd").format(datetime.now(), self.broj_stola, self.ukupna_cena)
+        print("Racun: datum {} sto broj {}, naplata {}rsd".format(datetime.now(), self.broj_stola, self.ukupna_cena))
 
     def poruci(self):
-        print("Porudzbina: datum{} sto broj {}").format(datetime.now(), self.broj_stola)
+        print("Porudzbina: datum{} sto broj {}".format(datetime.now(), self.broj_stola))

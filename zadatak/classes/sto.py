@@ -12,6 +12,7 @@ class Sto:
                 raise NijeNaplaceno
             else:
                 self.porudzbina = porudzbina
+                self.porudzbina.poruci()
         except NijeNaplaceno:
             print("Nije moguće izdati novu porudžbinu jer prethodna nije plaćena.")
 
